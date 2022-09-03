@@ -1,0 +1,17 @@
+title: The Representatives of Monkey Jack
+email: repsmonkeyjack@gmail.com
+description: >
+  Monkey Jack is a funky mamma jamma
+minima:
+  social_links:
+    twitter: repsmonkeyjack
+    github: repsmonkeyjack
+    
+markdown: kramdown
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+ 
