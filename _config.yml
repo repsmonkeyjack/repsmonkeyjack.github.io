@@ -1,12 +1,17 @@
 title: The Representatives of Monkey Jack
-email: repsmonkeyjack@gmail.com
+email: representingmonkeyjack@gmail.com
 description: >
   Monkey Jack is a funky mamma jamma
 minima:
   social_links:
     twitter: repsmonkeyjack
     github: repsmonkeyjack
-    
+    instagram: repsmonkeyjack
+    bandcamp: repsmonkeyjack
+    backstagepro: repsmonkeyjack
+    linktree: repsmonkeyjack
+    facebook: repsmonkeyjack
+
 markdown: kramdown
 
 theme: minima
