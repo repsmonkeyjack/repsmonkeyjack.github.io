@@ -48,6 +48,19 @@ layout: home
 
   <div class="card text-bg-dark">
     <div class="card-header">
+      <h4 style="margin-bottom: 0">Line Up</h4>
+    </div>
+    <ul class="list-group list-group-flush">
+      {% for member in site.data.members %}
+      <li class="list-group-item list-group-item-dark">
+        {{ member.name }} - {{ member.role }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="card text-bg-dark">
+    <div class="card-header">
       <h4 style="margin-bottom: 0">Events</h4>
     </div>
     <ul class="list-group list-group-flush">

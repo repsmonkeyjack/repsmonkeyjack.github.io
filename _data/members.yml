@@ -1,0 +1,8 @@
+- name: Nikesh
+  role: Singer
+- name: Till
+  role: Guitar
+- name: Regina
+  role: Drums
+- name: Charlie
+  role: Bass
