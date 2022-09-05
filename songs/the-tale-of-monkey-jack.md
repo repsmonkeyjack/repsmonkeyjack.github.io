@@ -4,10 +4,11 @@ title: The Tale of Monkey Jack
 permalink: /songs/tale-of-monkey-jack
 image: img/mj2.png
 ---
+
 Monkey Jack is a funky mamma' jamma'<br />
 He walks down the street with a whistle and a hammer<br />
 He has two rings around his eyes<br />
-When they ask him why, he says *It's my disguise*
+When they ask him why, he says _It's my disguise_
 
 Monkey Jack has a magic air balloon<br />
 On the weekend he takes it to the moon<br />
@@ -20,7 +21,7 @@ There's no bank vault he can't crack<br />
 His charming smile is his attack
 
 Monkey Jack knows a German alligator<br />
-When they leave for work they say, *Bis später!*<br />
+When they leave for work they say, _Bis später!_<br />
 They have connections to the underground<br />
 They're the lowest high roller in this town
 

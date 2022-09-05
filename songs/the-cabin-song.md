@@ -4,6 +4,7 @@ title: The Cabin Song
 permalink: /songs/the-cabin-song
 image: img/mj3.png
 ---
+
 A million questions asked<br />
 Trying to figure out the past<br />
 Where did things go wrong<br />

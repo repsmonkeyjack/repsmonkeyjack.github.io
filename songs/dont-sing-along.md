@@ -4,6 +4,7 @@ title: Don't Sing Along (What Did Bree Do?)
 permalink: /songs/dont-sing-along
 image: img/mj4.png
 ---
+
 Can't stop the world from spinning<br />
 Can't stop the birds from singing<br />
 Sunlight is filling the room<br />
@@ -31,7 +32,7 @@ They tried to tell me<br />
 That I couldn't sing along<br />
 But it feels so right right now<br />
 I don't understand why it's wrong
- 
+
 I just wanted to dance<br />
 I just wanted to sing along to all my favorite songs<br />
 And get lost in the rhythm<br />
