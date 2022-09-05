@@ -1,11 +1,15 @@
 - venue: Brotfabrik
   event: Kunst gegen Bares
   date: 2022-12-07
+  city: Bonn
 - venue: Elfer Klub
   date: 2022-10-08
   event: SPH Musicmasters Regio-finale
+  city: Frankfurt
 - venue: Blue Shell
   date: 2022-09-24
+  city: Köln
 - venue: MTC Köln
   date: 2022-06-25
   event: SPH Musicmasters Vorrunde
+  city: Köln
