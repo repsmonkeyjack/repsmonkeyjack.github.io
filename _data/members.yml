@@ -1,8 +1,16 @@
-- name: Nikesh
+- name: Nikesh Trecarten
   role: Singer
-- name: Till
+  instagram: nikt12345678910111213
+  image: img/nik.jpeg
+- name: Till Marßdorf
   role: Guitar
-- name: Regina
+  instagram: tillmarssdorf
+  image: img/till.jpeg
+- name: Regina Schäfers
   role: Drums
-- name: Charlie
+  instagram: resch.11
+  image: img/regina.jpeg
+- name: Charlie Hoyt
   role: Bass
+  instagram: charlestapleyhoyt
+  image: img/charlie.jpeg

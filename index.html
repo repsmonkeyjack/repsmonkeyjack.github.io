@@ -3,92 +3,107 @@ layout: home
 ---
 
 <div class="col-6 offset-3">
-  <img src="img/name.png" class="img-fluid" alt="Monkey Jack header" />
+    <img src="img/name.png" class="img-fluid" alt="Monkey Jack header"/>
 
-  <div class="card text-bg-dark">
-    <div class="card-header">
-      <h4 style="margin-bottom: 0">About</h4>
+    <div class="card text-bg-dark">
+        <div class="card-header">
+            <h4 style="margin-bottom: 0">About</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <img
+                        src="img/mj1.png"
+                        alt="Monkey Jack"
+                        style="max-height: 140px; float: left; margin-right: 1em"
+                />
+                The Representatives of Monkey Jack are a four-piece alternative rock
+                outfit from Bonn, Germany with influences ranging from pop to metal,
+                classical, jazz, and folk. Their songs feature human narratives
+                flickering between reminiscing and brooding that emerge in a wide tonal
+                spectrum from gentle, thoughtful, acoustic passages to errant,
+                merciless, head-banging breakdowns.
+            </p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item-dark">
+                <a href="https://instagram.com/repsmonkeyjack">Instagram</a>
+            </li>
+            <!--<li class="list-group-item list-group-item-dark">
+              <a href="https://twitter.com/repsmonkeyjack">Twitter</a>
+            </li>-->
+            <li class="list-group-item list-group-item-dark">
+                <a href="https://facebook.com/repsmonkeyjack">Facebook</a>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <a href="https://repsmonkeyjack.bandcamp.com">Bandcamp</a>
+            </li>
+            <li class="list-group-item list-group-item-dark">
+                <a href="https://backstagepro.de/repsmonkeyjack">Backstage Pro</a>
+            </li>
+            <!--<li class="list-group-item list-group-item-dark">
+                <a href="https://linktr.ee/repsmonkeyjack">Linktree</a>
+            </li>-->
+            <li class="list-group-item list-group-item-dark">
+                <a href="https://docs.google.com/document/d/1wfmk7Z8WHzHpiFrocNGe5vEZa_zIRuKJILq_txK2kjw/edit?usp=sharing">
+                    Technical Rider
+                </a>
+            </li>
+        </ul>
     </div>
-    <div class="card-body">
-      <p class="card-text">
-        <img
-          src="img/mj1.png"
-          alt="Monkey Jack"
-          style="max-height: 140px; float: left; margin-right: 1em"
-        />
-        The Representatives of Monkey Jack are a four-piece alternative rock
-        outfit from Bonn, Germany with influences ranging from pop to metal,
-        classical, jazz, and folk. Their songs feature human narratives
-        flickering between reminiscing and brooding that emerge in a wide tonal
-        spectrum from gentle, thoughtful, acoustic passages to errant,
-        merciless, head-banging breakdowns.
-      </p>
-    </div>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item list-group-item-dark">
-        <a href="https://instagram.com/repsmonkeyjack">Instagram</a>
-      </li>
-      <!--<li class="list-group-item list-group-item-dark">
-        <a href="https://twitter.com/repsmonkeyjack">Twitter</a>
-      </li>-->
-      <li class="list-group-item list-group-item-dark">
-        <a href="https://facebook.com/repsmonkeyjack">Facebook</a>
-      </li>
-      <li class="list-group-item list-group-item-dark">
-        <a href="https://repsmonkeyjack.bandcamp.com">Bandcamp</a>
-      </li>
-      <li class="list-group-item list-group-item-dark">
-        <a href="https://backstagepro.de/repsmonkeyjack">Backstage Pro</a>
-      </li>
-      <li class="list-group-item list-group-item-dark">
-        <a href="https://linktr.ee/repsmonkeyjack">Linktree</a>
-      </li>
-    </ul>
-  </div>
 
-  <div class="card text-bg-dark">
-    <div class="card-header">
-      <h4 style="margin-bottom: 0">Line Up</h4>
-    </div>
-    <ul class="list-group list-group-flush">
-      {% for member in site.data.members %}
-      <li class="list-group-item list-group-item-dark">
-        {{ member.name }} - {{ member.role }}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+    <div class="card text-bg-dark">
+        <div class="card-header">
+            <h4 style="margin-bottom: 0">Line Up</h4>
+        </div>
+        <div class="list-group list-group-flush">
+            {% for member in site.data.members %}
+            <div class="list-group-item list-group-item-dark">
+                <div style="float: left; margin-right: 5px;">
+                    <img src="{{ member.image }}" class="rounded-circle me-1" style="max-height: 45px"
+                         alt="headshot of {{ member.name }}"/>
+                </div>
 
-  <div class="card text-bg-dark">
-    <div class="card-header">
-      <h4 style="margin-bottom: 0">Events</h4>
+                <h5 class="mb-1">{{ member.name }}</h5>
+                {{ member.role }} - <a href="https://instagram.com/{{ member.instagram }}">@{{ member.instagram }}</a>
+            </div>
+            {% endfor %}
+        </div>
     </div>
-    <ul class="list-group list-group-flush">
-      {% for show in site.data.shows %}
-      <li class="list-group-item list-group-item-dark">
-        {{ show.date }} - {% if show.event %} {{ show.event }} (at {{ show.venue
-        }}) {% else %} {{ show.venue }} {% endif %} - {{ show.city }}
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
 
-  <div class="card text-bg-dark">
-    <div class="card-header">
-      <h4 style="margin-bottom: 0">Songs</h4>
+    <div class="card text-bg-dark">
+        <div class="card-header">
+            <h4 style="margin-bottom: 0">Events</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+            {% for show in site.data.shows %}
+            <li class="list-group-item list-group-item-dark">
+                {{ show.date }} - {% if show.event %} {{ show.event }} (at {{ show.venue
+                }}) {% else %} {{ show.venue }} {% endif %} - {{ show.city }}
+                {% if show.tickets %}
+                <br /><a href="{{ show.tickets }}">Tickets</a>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
     </div>
-    <div class="card-body">
-      <p class="card-text">
-        While we're hard at work recording our first songs, we already want to share with you some of our lyrics.
-      </p>
+
+    <div class="card text-bg-dark">
+        <div class="card-header">
+            <h4 style="margin-bottom: 0">Songs</h4>
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                While we're hard at work recording our first songs, we already want to share with you some of our
+                lyrics.
+            </p>
+        </div>
+        <ul class="list-group list-group-flush">
+            {% for song in site.pages %} {% if song.url contains "songs" %}
+            <li class="list-group-item list-group-item-dark">
+                <img src="{{ song.image }}" style="max-height: 45px" alt="silly art for {{ song.title }}"/>
+                <a href="{{ song.url }}"> {{ song.title }} </a>
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
     </div>
-    <ul class="list-group list-group-flush">
-      {% for song in site.pages %} {% if song.url contains "songs" %}
-      <li class="list-group-item list-group-item-dark">
-        <img src="{{ song.image }}" style="max-height: 45px" alt="silly art for {{ song.title }}" />
-        <a href="{{ song.url }}"> {{ song.title }} </a>
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
-  </div>
 </div>
