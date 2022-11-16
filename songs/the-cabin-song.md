@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: song
 title: The Cabin Song
 permalink: /songs/the-cabin-song
 image: img/mj3.png

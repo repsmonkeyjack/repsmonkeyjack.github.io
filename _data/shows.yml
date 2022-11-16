@@ -1,17 +1,44 @@
+- venue: Live Music Hall
+  event: SPH Musicmasters Finale
+  date: 2022-04-08
+  city: Köln
+  tickets: https://www.sph-music-masters.de/shows/details/3765
+  link: https://www.sph-music-masters.de/shows/details/3765
+  image: img/2023-04-08_Finale.jpg
+
 - venue: Brotfabrik
   event: Kunst gegen Bares
   date: 2022-12-07
   city: Bonn
+
+- venue: MTC Köln
+  event: SPH Musicmasters Halb-Finale
+  date: 2022-11-12
+  city: Köln
+  link: https://www.sph-music-masters.de/shows/details/3521
+  image: img/2022-11-12_Halbfinale.jpg
+
+- venue: Tsunami Club
+  date: 2022-10-14
+  event: SPH Musicmasters Regio-finale
+  city: Köln
+  link: https://www.sph-music-masters.de/shows/details/3693
+  image: img/2022-10-14_Regio-Finale.jpg
+
 - venue: Elfer Klub
   date: 2022-10-08
   event: SPH Musicmasters Regio-finale
   city: Frankfurt
-  tickets: https://github.com/repsmonkeyjack/repsmonkeyjack.github.io/
+  cancelled: due to COVID
+
 - venue: Blue Shell
   date: 2022-09-24
   city: Köln
-  tickets: https://repsmonkeyjack.bandcamp.com/merch/ticket-to-blue-shell-on-september-24th
+  link: https://www.blue-shell.de/events/the-representatives-of-monkey-jack-23rd-of-november-ape-shack
+
 - venue: MTC Köln
   date: 2022-06-25
   event: SPH Musicmasters Vorrunde
   city: Köln
+  link: https://www.sph-music-masters.de/shows/details/3518
+  image: img/2022-06-25_Vorrunde.jpg

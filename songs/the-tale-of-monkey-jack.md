@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: song
 title: The Tale of Monkey Jack
 permalink: /songs/tale-of-monkey-jack
 image: img/mj2.png
@@ -33,10 +33,10 @@ His charming smile is his attack
 Monkey Jack's secret, he'll never tell<br />
 About the man who slipped and fell,<br />
 It doesn't matter how sorry you feel,<br />
-When one perishes from your banana peel,<br />
+When one perishes from your banana peel<br />
 Just a simple, quick, and thoughtless act,<br />
-Now he has to run and never look back,<br />
-Always wondering if life will get him back <br />
+Now he has to run and never look back<br />
+Always wondering if life will get him back<br />
 This is the tale of Monkey Jack
 
 Don't talk smack about Monkey Jack<br />

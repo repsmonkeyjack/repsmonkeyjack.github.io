@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: song
 title: Don't Sing Along (What Did Bree Do?)
 permalink: /songs/dont-sing-along
 image: img/mj4.png

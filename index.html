@@ -2,20 +2,37 @@
 layout: home
 ---
 
-<div class="col-6 offset-3">
-    <img src="img/name.png" class="img-fluid" alt="Monkey Jack header"/>
+<div class="container" style="margin-top: 2em; margin-bottom: 2em;">
+    <div class="col-6 offset-3">
+        <img src="img/name.png" class="img-fluid" alt="Monkey Jack header"/>
 
-    <div class="card text-bg-dark">
-        <div class="card-header">
-            <h4 style="margin-bottom: 0">About</h4>
+        <div class="input-group mb-3 justify-content-evenly">
+            <a class="btn btn-outline" href="https://instagram.com/repsmonkeyjack">
+                <i class="bi bi-instagram"></i> Instagram
+            </a>
+            <a class="btn btn-outline" href="https://facebook.com/repsmonkeyjack">
+                <i class="bi bi-facebook"></i> Facebook
+            </a>
+            <a class="btn btn-outline" href="https://repsmonkeyjack.bandcamp.com">
+                <i class="bi bi-boombox"></i> Bandcamp
+            </a>
+            <a class="btn btn-outline" href="https://backstagepro.de/repsmonkeyjack">
+                <i class="bi bi-file-music"></i> Backstage Pro
+            </a>
+            <!--
+            <a href="https://linktr.ee/repsmonkeyjack">Linktree</a>
+        -->
         </div>
+    </div>
+
+    <div class="card card-highlight">
         <div class="card-body">
             <p class="card-text">
-                <img
+                <!--<img
                         src="img/mj1.png"
                         alt="Monkey Jack"
                         style="max-height: 140px; float: left; margin-right: 1em"
-                />
+                />-->
                 The Representatives of Monkey Jack are a four-piece alternative rock
                 outfit from Bonn, Germany with influences ranging from pop to metal,
                 classical, jazz, and folk. Their songs feature human narratives
@@ -24,70 +41,56 @@ layout: home
                 merciless, head-banging breakdowns.
             </p>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item list-group-item-dark">
-                <a href="https://instagram.com/repsmonkeyjack">Instagram</a>
-            </li>
-            <!--<li class="list-group-item list-group-item-dark">
-              <a href="https://twitter.com/repsmonkeyjack">Twitter</a>
-            </li>-->
-            <li class="list-group-item list-group-item-dark">
-                <a href="https://facebook.com/repsmonkeyjack">Facebook</a>
-            </li>
-            <li class="list-group-item list-group-item-dark">
-                <a href="https://repsmonkeyjack.bandcamp.com">Bandcamp</a>
-            </li>
-            <li class="list-group-item list-group-item-dark">
-                <a href="https://backstagepro.de/repsmonkeyjack">Backstage Pro</a>
-            </li>
-            <!--<li class="list-group-item list-group-item-dark">
-                <a href="https://linktr.ee/repsmonkeyjack">Linktree</a>
-            </li>-->
-            <li class="list-group-item list-group-item-dark">
-                <a href="https://docs.google.com/document/d/1wfmk7Z8WHzHpiFrocNGe5vEZa_zIRuKJILq_txK2kjw/edit?usp=sharing">
-                    Technical Rider
-                </a>
-            </li>
-        </ul>
     </div>
 
-    <div class="card text-bg-dark">
-        <div class="card-header">
-            <h4 style="margin-bottom: 0">Line Up</h4>
-        </div>
-        <div class="list-group list-group-flush">
-            {% for member in site.data.members %}
-            <div class="list-group-item list-group-item-dark">
-                <div style="float: left; margin-right: 5px;">
-                    <img src="{{ member.image }}" class="rounded-circle me-1" style="max-height: 45px"
-                         alt="headshot of {{ member.name }}"/>
-                </div>
-
-                <h5 class="mb-1">{{ member.name }}</h5>
-                {{ member.role }} - <a href="https://instagram.com/{{ member.instagram }}">@{{ member.instagram }}</a>
-            </div>
-            {% endfor %}
-        </div>
-    </div>
-
-    <div class="card text-bg-dark">
+    <div class="card card-highlight">
         <div class="card-header">
             <h4 style="margin-bottom: 0">Events</h4>
         </div>
         <ul class="list-group list-group-flush">
             {% for show in site.data.shows %}
-            <li class="list-group-item list-group-item-dark">
+            {% unless show.cancelled %}
+            <li class="list-group-item list-group-item">
                 {{ show.date }} - {% if show.event %} {{ show.event }} (at {{ show.venue
                 }}) {% else %} {{ show.venue }} {% endif %} - {{ show.city }}
                 {% if show.tickets %}
-                <br /><a href="{{ show.tickets }}">Tickets</a>
+                <br/><a href="{{ show.tickets }}">Tickets</a>
                 {% endif %}
             </li>
+            {% endunless %}
             {% endfor %}
         </ul>
     </div>
+    <div class="card-group card-highlight">
+        {% for member in site.data.members %}
+        <div class="card">
+            <img src="{{ member.image }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{ member.name }}</h5>
+                <p class="card-text">{{ member.role }}</p>
+                <p class="card-text"><a href="https://instagram.com/{{ member.instagram }}">@{{ member.instagram }}</a></p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 
-    <div class="card text-bg-dark">
+    <div class="card card-highlight">
+        <div class="card-header">
+            <h4 style="margin-bottom: 0">Riders</h4>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item list-group-item">
+                <a href="https://docs.google.com/document/d/1wfmk7Z8WHzHpiFrocNGe5vEZa_zIRuKJILq_txK2kjw/edit?usp=sharing">
+                    Technical Rider
+                </a>
+            </li>
+            <li class="list-group-item list-group-item">
+                Press Rider (coming soon)
+            </li>
+        </ul>
+    </div>
+
+    <div class="card card-highlight">
         <div class="card-header">
             <h4 style="margin-bottom: 0">Songs</h4>
         </div>
@@ -99,7 +102,7 @@ layout: home
         </div>
         <ul class="list-group list-group-flush">
             {% for song in site.pages %} {% if song.url contains "songs" %}
-            <li class="list-group-item list-group-item-dark">
+            <li class="list-group-item list-group-item">
                 <img src="{{ song.image }}" style="max-height: 45px" alt="silly art for {{ song.title }}"/>
                 <a href="{{ song.url }}"> {{ song.title }} </a>
             </li>
@@ -107,3 +110,7 @@ layout: home
         </ul>
     </div>
 </div>
+
+<footer>
+    <img src="img/DSCF0030.png" class="img-fluid" alt="what is a banana"/>
+</footer>
