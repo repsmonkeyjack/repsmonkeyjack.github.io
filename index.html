@@ -2,21 +2,21 @@
 layout: home
 ---
 
-<div class="container" style="margin-top: 2em; margin-bottom: 2em;">
+<div class="smack" style="margin-top: 2em; padding-bottom: 2em; margin-bottom: 2em;">
     <div class="col-6 offset-3">
         <img src="img/name.png" class="img-fluid" alt="Monkey Jack header"/>
 
-        <div class="input-group mb-3 justify-content-evenly">
-            <a class="btn btn-outline" href="https://instagram.com/repsmonkeyjack">
+        <div class="mb-3 justify-content-evenly">
+            <a class="btn btn-light" href="https://instagram.com/repsmonkeyjack">
                 <i class="bi bi-instagram"></i> Instagram
             </a>
-            <a class="btn btn-outline" href="https://facebook.com/repsmonkeyjack">
+            <a class="btn btn-light" href="https://facebook.com/repsmonkeyjack">
                 <i class="bi bi-facebook"></i> Facebook
             </a>
-            <a class="btn btn-outline" href="https://repsmonkeyjack.bandcamp.com">
+            <a class="btn btn-light" href="https://repsmonkeyjack.bandcamp.com">
                 <i class="bi bi-boombox"></i> Bandcamp
             </a>
-            <a class="btn btn-outline" href="https://backstagepro.de/repsmonkeyjack">
+            <a class="btn btn-light" href="https://backstagepro.de/repsmonkeyjack">
                 <i class="bi bi-file-music"></i> Backstage Pro
             </a>
             <!--
@@ -24,7 +24,8 @@ layout: home
         -->
         </div>
     </div>
-
+</div>
+<div class="container" style="margin-top: 2em; margin-bottom: 2em;">
     <div class="card card-highlight">
         <div class="card-body">
             <p class="card-text">
@@ -41,6 +42,21 @@ layout: home
                 merciless, head-banging breakdowns.
             </p>
         </div>
+    </div>
+
+    <div class="card-group card-highlight">
+        {% for member in site.data.members %}
+        <div class="card">
+            <img src="{{ member.image }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{ member.name }}</h5>
+                <p class="card-text">
+                    {{ member.role }}<br />
+                    <a href="https://instagram.com/{{ member.instagram }}">@{{ member.instagram }}</a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 
     <div class="card card-highlight">
@@ -60,18 +76,6 @@ layout: home
             {% endunless %}
             {% endfor %}
         </ul>
-    </div>
-    <div class="card-group card-highlight">
-        {% for member in site.data.members %}
-        <div class="card">
-            <img src="{{ member.image }}" class="card-img-top">
-            <div class="card-body">
-                <h5 class="card-title">{{ member.name }}</h5>
-                <p class="card-text">{{ member.role }}</p>
-                <p class="card-text"><a href="https://instagram.com/{{ member.instagram }}">@{{ member.instagram }}</a></p>
-            </div>
-        </div>
-        {% endfor %}
     </div>
 
     <div class="card card-highlight">

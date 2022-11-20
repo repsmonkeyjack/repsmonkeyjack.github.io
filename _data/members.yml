@@ -1,16 +1,16 @@
 - name: Nikesh Trecarten
-  role: Singer
+  role: Singer, Rhythm Guitar
   instagram: nikt12345678910111213
-  image: img/nik.jpeg
+  image: img/nik.png
 - name: Till Marßdorf
-  role: Guitar
+  role: Lead Guitar
   instagram: tillmarssdorf
-  image: img/till.jpeg
+  image: img/till.png
 - name: Regina Schäfers
-  role: Drums
+  role: Drums, Backup Vocals
   instagram: resch.11
-  image: img/regina.jpeg
+  image: img/regina.png
 - name: Charlie Hoyt
-  role: Bass
+  role: Bass, Backup Vocals, Saxophone
   instagram: charlestapleyhoyt
-  image: img/charlie.jpeg
+  image: img/charlie.png
