@@ -2,6 +2,7 @@
 layout: song
 title: Time Flies By
 permalink: /songs/time-files-by
+image: img/mj6.png
 ---
 
 So many words kept inside<br />

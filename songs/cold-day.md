@@ -2,6 +2,7 @@
 layout: song
 title: Cold Day
 permalink: /songs/cold-day
+image: img/mj5.png
 ---
 
 You ex-patriot<br />
