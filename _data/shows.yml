@@ -12,11 +12,23 @@
   city: Bonn
   link: https://rpz-bonn.de/events/showcase29/
   image: https://www.dasmusiknetzwerk.de/wp-content/uploads/2020/05/Facebook-RPZ-Showcase-29-1.png
+  setlist:
+    - Cold Day
+    - The Tale of Monkey Jack
+    - The Cabin Song
+    - Tear Me Down
+    - Don't Sing Along
+    - Quiet Party
+    - Time Flies By (Encore)
 
 - venue: Brotfabrik
   event: Kunst gegen Bares
   date: 2022-12-07
   city: Bonn
+  setlist:
+    - Tear Me Down
+    - The Cabin Song
+    - Don't Sing Along
 
 - venue: MTC Köln
   event: SPH Musicmasters Halb-Finale
@@ -24,6 +36,12 @@
   city: Köln
   link: https://www.sph-music-masters.de/shows/details/3521
   image: img/2022-11-12_Halbfinale.jpg
+  setlist:
+    - Time Flies By
+    - Tear Me Down
+    - The Cabin Song
+    - Don't Sing Along
+    - The Tale of Monkey Jack
 
 - venue: Tsunami Club
   date: 2022-10-14
@@ -42,6 +60,16 @@
   date: 2022-09-24
   city: Köln
   link: https://www.blue-shell.de/events/the-representatives-of-monkey-jack-23rd-of-november-ape-shack
+  setlist:
+    - Time Flies By
+    - Tear Me Down
+    - Core
+    - Cold Day
+    - The Cabin Song
+    - Unforgettable
+    - Travel
+    - Don't Sing Along
+    - The Tale of Monkey Jack
 
 - venue: MTC Köln
   date: 2022-06-25
