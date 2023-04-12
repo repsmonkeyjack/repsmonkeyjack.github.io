@@ -1,10 +1,25 @@
+- venue: Widdig Jungendclub
+  date: 2023-07-08
+  city: Niederkassel
+  event: Backyard Bash 2023 Open Air Festival
+  link: https://www.andreas-tretbar.de/2022-07-23-backyard-bash-niederkassel
+
+- venue: Blue Shell
+  date: 2023-06-17
+  city: Köln
+
 - venue: Live Music Hall
   event: SPH Musicmasters Finale
-  date: 2022-04-08
+  date: 2023-04-08
   city: Köln
   # tickets: https://www.sph-music-masters.de/shows/details/3765
   link: https://www.sph-music-masters.de/shows/details/3765
   image: img/2023-04-08_Finale.jpg
+  setlist:
+    - The Tale of Monkey Jack
+    - Tear Me Down
+    - Don't Sing Along
+    - Quiet Party
 
 - venue: RPZ Bonn
   date: 2023-01-30
