@@ -4,9 +4,21 @@
   event: Backyard Bash 2023 Open Air Festival
   link: https://www.andreas-tretbar.de/2022-07-23-backyard-bash-niederkassel
 
+- venue: Kieler Woche
+  link: https://www.kieler-woche.de/
+  date: 2023-06-18
+  city: Kiel
+  event: Kieler Woche
+
 - venue: Blue Shell
   date: 2023-06-17
   city: Köln
+
+- venue: Bambi Galore
+  date: 2023-06-02
+  city: Hamburg
+  event: SPH Musicmasters Invited Guest
+  link: https://www.sph-music-masters.de/shows/details/3651
 
 - venue: Live Music Hall
   event: SPH Musicmasters Finale
