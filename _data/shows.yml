@@ -1,27 +1,52 @@
+- venue: Burg Endenich
+  date: 2023-08-26
+  city: Bonn
+  event: BurgRock 2023
+  link: https://www.kube-bonn.de/2023/04/19/burgrock-2023/
+
 - venue: Widdig Jungendclub
   date: 2023-07-08
   city: Niederkassel
   event: Backyard Bash 2023 Open Air Festival
   link: https://www.andreas-tretbar.de/2022-07-23-backyard-bash-niederkassel
 
-- venue: Kieler Woche
-  link: https://www.kieler-woche.de/
-  date: 2023-06-18
-  city: Kiel
-  event: Kieler Woche
-
 - venue: Blue Shell
   date: 2023-06-17
   city: Köln
 
+- venue: Kieler Woche
+  link: https://www.kieler-woche.de/
+  date: 2023-06-16
+  city: Kiel
+  event: Bob's Rockcamp by Radio Bob
+  setlist:
+    - Cold Day
+    - Tear Me Down
+    - Core
+    - Time Flies By
+    - Loud Thoughts
+    - Travel
+    - The Cabin Song
+    - Don't Sing Along
+    - The Tale of Monkey Jack
+    - Quiet Party
+
 - venue: Bambi Galore
   date: 2023-06-02
   city: Hamburg
+  series: SPH Musicmasters Saison 2023
   event: SPH Musicmasters Invited Guest
   link: https://www.sph-music-masters.de/shows/details/3651
+  setlist:
+    - Tear Me Down
+    - Don't Sing Along
+    - The Tale of Monkey Jack
+    - Quiet Party
+    - Travel
 
 - venue: Live Music Hall
   event: SPH Musicmasters Finale
+  series: SPH Musicmasters Saison 2022
   date: 2023-04-08
   city: Köln
   # tickets: https://www.sph-music-masters.de/shows/details/3765
@@ -62,6 +87,7 @@
   date: 2022-11-12
   city: Köln
   link: https://www.sph-music-masters.de/shows/details/3521
+  series: SPH Musicmasters Saison 2022
   image: img/2022-11-12_Halbfinale.jpg
   setlist:
     - Time Flies By
@@ -73,6 +99,7 @@
 - venue: Tsunami Club
   date: 2022-10-14
   event: SPH Musicmasters Regio-finale
+  series: SPH Musicmasters Saison 2022
   city: Köln
   link: https://www.sph-music-masters.de/shows/details/3693
   image: img/2022-10-14_Regio-Finale.jpg
@@ -100,6 +127,7 @@
 
 - venue: MTC Köln
   date: 2022-06-25
+  series: SPH Musicmasters Saison 2022
   event: SPH Musicmasters Vorrunde
   city: Köln
   link: https://www.sph-music-masters.de/shows/details/3518
