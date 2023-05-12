@@ -14,22 +14,22 @@
   date: 2023-06-17
   city: Köln
 
-- venue: Kieler Woche
-  link: https://www.kieler-woche.de/
-  date: 2023-06-16
-  city: Kiel
-  event: Bob's Rockcamp by Radio Bob
-  setlist:
-    - Cold Day
-    - Tear Me Down
-    - Core
-    - Time Flies By
-    - Loud Thoughts
-    - Travel
-    - The Cabin Song
-    - Don't Sing Along
-    - The Tale of Monkey Jack
-    - Quiet Party
+# - venue: Kieler Woche
+#   link: https://www.kieler-woche.de/
+#   date: 2023-06-16
+#   city: Kiel
+#   event: Bob's Rockcamp by Radio Bob
+#   setlist:
+#     - Cold Day
+#     - Tear Me Down
+#     - Core
+#     - Time Flies By
+#     - Loud Thoughts
+#     - Travel
+#     - The Cabin Song
+#     - Don't Sing Along
+#     - The Tale of Monkey Jack
+#     - Quiet Party
 
 - venue: Bambi Galore
   date: 2023-06-02
