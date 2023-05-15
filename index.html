@@ -75,8 +75,8 @@ layout: home
                 {% for show in site.data.shows %}
                 {% unless show.cancelled %}
                 <li class="list-group-item list-group-item">
-                    {{ show.date }} - {% if show.event %} {{ show.event }} (at {{ show.venue
-                    }}) {% else %} {{ show.venue }} {% endif %} - {{ show.city }}
+                    {{ show.date }} -
+                    <a href="{{ show.link }}">{{ show.event }}</a> (at {{ show.venue }})  - {{ show.city }}
                     {% if show.tickets %}
                     <br/><a href="{{ show.tickets }}">Tickets</a>
                     {% endif %}

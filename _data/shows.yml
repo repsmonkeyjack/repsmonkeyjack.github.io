@@ -10,9 +10,25 @@
   event: Backyard Bash 2023 Open Air Festival
   link: https://www.andreas-tretbar.de/2022-07-23-backyard-bash-niederkassel
 
+- venue: Rosenkeller
+  date: 2023-07-07
+  city: Jena
+  event: Absence of Corners Album Release Party
+  bands:
+    - name: The Absence of Corners
+      instagram: theabsenceofcorners
+    - name: Seed of Sin
+      instagram: seedofsinband
+
 - venue: Blue Shell
   date: 2023-06-17
   city: Köln
+  event: Monkey Business!
+  link: https://t.rausgegangen.de/tickets/monkey-business-the-blue-shell
+  bands:
+    - name: The Absence of Corners
+      instagram: theabsenceofcorners
+    - name: AlphaBrunoGamma
 
 # - venue: Kieler Woche
 #   link: https://www.kieler-woche.de/
@@ -43,6 +59,18 @@
     - The Tale of Monkey Jack
     - Quiet Party
     - Travel
+  bands:
+    - name: Smile Instead
+      instagram: smileinsteadofficial
+    - name: Fin the Chaef
+      instagram: ftc_offiziell
+    - name: Oli Boli
+      instagram: olibolil2002
+    - name: Jamil
+      instagram: jamil.216
+    - name: Skilbeck
+      instagram: skilbeck_music
+    - name: Natzky
 
 - venue: Live Music Hall
   event: SPH Musicmasters Finale
@@ -57,6 +85,25 @@
     - Tear Me Down
     - Don't Sing Along
     - Quiet Party
+  bands:
+    - name: Nero's Friends
+      instagram: nerosfriends
+    - name: Baba Shrimp Gang
+      instagram: shrimp_musik
+    - name: Scheiba
+      instagram: scheiba.band
+    - name: Dalarna
+      instagram: dalarna_band
+    - name: Redish
+      instagram: redish.ger
+    - name: Commander Jules
+      instagram: commanderjules
+    - name: Daily Demons
+      instagram: dailydemons.official
+    - name: Downhill
+      instagram: downhill.rocks
+    - name: The IronY
+      instagram: theironyband
 
 - venue: RPZ Bonn
   date: 2023-01-30
@@ -72,6 +119,13 @@
     - Don't Sing Along
     - Quiet Party
     - Time Flies By (Encore)
+  bands:
+    - name: Creepers
+      instagram: creepers.official
+    - name: Wasp in a Bottle
+      instagram: waspinabottle
+    - name: Onyxsin
+      instagram: onyxsin_official
 
 - venue: Brotfabrik
   event: Kunst gegen Bares
@@ -95,6 +149,16 @@
     - The Cabin Song
     - Don't Sing Along
     - The Tale of Monkey Jack
+  bands:
+    - name: Youth Authorities
+      instagram: youth_authorities
+    - name: Timothy
+      instagram: timothyn1ce
+    - name: Fat Boy Delirium
+      instagram: fatboydelirium
+    - name: Dantes Inferno
+    - name: Pure Zillion
+      instagram: pure_zillion
 
 - venue: Tsunami Club
   date: 2022-10-14
@@ -103,6 +167,17 @@
   city: Köln
   link: https://www.sph-music-masters.de/shows/details/3693
   image: img/2022-10-14_Regio-Finale.jpg
+  bands:
+    - name: Generation. F
+      instgram: generationf_official
+    - name: Maanni51
+      instagram: maanni51
+    - name: Mayz Kuro
+      instagram: mayz.kuro
+    - name: Devin James
+      instagram: devinjamestotheground
+    - name: Attic Track
+      instagram: attic_track_band
 
 - venue: Elfer Klub
   date: 2022-10-08
@@ -114,6 +189,7 @@
   date: 2022-09-24
   city: Köln
   link: https://www.blue-shell.de/events/the-representatives-of-monkey-jack-23rd-of-november-ape-shack
+  event: Monkey Sampler!
   setlist:
     - Time Flies By
     - Tear Me Down
@@ -124,6 +200,11 @@
     - Travel
     - Don't Sing Along
     - The Tale of Monkey Jack
+  bands:
+    - name: Ape Shack
+      instagram: ape_shack
+    - name: 23rd of November
+      instagram: 23rd_of_november_official
 
 - venue: MTC Köln
   date: 2022-06-25
@@ -132,3 +213,10 @@
   city: Köln
   link: https://www.sph-music-masters.de/shows/details/3518
   image: img/2022-06-25_Vorrunde.jpg
+  bands:
+    - name: Moonlight Thief
+      instagram: moonlightthiefband
+    - name: Kaprice
+      instagram: kapriceband
+    - name: 5 Among Many
+      instagram: 5amongmany
