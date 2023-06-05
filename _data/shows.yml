@@ -13,7 +13,7 @@
 - venue: Rosenkeller
   date: 2023-07-07
   city: Jena
-  event: Absence of Corners Album Release Party
+  event: Opening for Absence of Corners at their Album Release Party
   bands:
     - name: The Absence of Corners
       instagram: theabsenceofcorners
@@ -30,22 +30,22 @@
       instagram: theabsenceofcorners
     - name: AlphaBrunoGamma
 
-# - venue: Kieler Woche
-#   link: https://www.kieler-woche.de/
-#   date: 2023-06-16
-#   city: Kiel
-#   event: Bob's Rockcamp by Radio Bob
-#   setlist:
-#     - Cold Day
-#     - Tear Me Down
-#     - Core
-#     - Time Flies By
-#     - Loud Thoughts
-#     - Travel
-#     - The Cabin Song
-#     - Don't Sing Along
-#     - The Tale of Monkey Jack
-#     - Quiet Party
+- venue: Kieler Woche
+  link: https://www.kieler-woche.de/
+  date: 2023-06-16
+  city: Kiel
+  event: Bob's Rockcamp by Radio Bob
+  setlist:
+    - Cold Day
+    - Tear Me Down
+    - Core
+    - Time Flies By
+    - Loud Thoughts
+    - Travel
+    - The Cabin Song
+    - Don't Sing Along
+    - The Tale of Monkey Jack
+    - Quiet Party
 
 - venue: Bambi Galore
   date: 2023-06-02
