@@ -1,3 +1,20 @@
+- venue: Kulturkellar
+  date: 2024-02-17
+  city: Gleisdorf, AT
+  event: On Stage Bandcontest 2024
+  link: https://www.kube-bonn.de/2023/04/19/burgrock-2023/
+  setlist:
+  - Tear Me Down
+  - The Tale of Monkey Jack
+  - Don't Sing Along
+  - The Quiet Party
+  bands:
+  - name: Future Plan
+  - name: Akida
+  - name: Astro Nero
+  - name: Liquid Lunch
+  - name: 'Aschn & Höldn'
+
 - venue: Burg Endenich
   date: 2023-08-26
   city: Bonn
